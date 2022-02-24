@@ -324,7 +324,6 @@ export default {
                 return this.$message.error('获取角色列表失败')
             }
             this.rolesList = res.data
-
             this.setRoleDialogVisible = true
         },
         //点击按钮分配角色
