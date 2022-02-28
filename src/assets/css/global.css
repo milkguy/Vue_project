@@ -33,6 +33,6 @@ body,
   display: flex;
   align-items: center;
 }
-.el-form-item__label {
-  width: 200px;
+.el-cascader-menu {
+  height: 300px;
 }
