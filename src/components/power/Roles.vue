@@ -88,10 +88,10 @@
 
             <!-- 内容主体区域 -->
             <el-form :model="addUserForm" :rules="addUserFormRules" ref="addUserFormRef" label-width="70px">
-                <el-form-item label="角色名" prop="roleName">
+                <el-form-item label="角色名称" prop="roleName">
                     <el-input v-model="addUserForm.roleName"></el-input>
                 </el-form-item>
-                <el-form-item label="描述" prop="roleDesc">
+                <el-form-item label="角色描述" prop="roleDesc">
                     <el-input v-model="addUserForm.roleDesc"></el-input>
                 </el-form-item>
             </el-form>
