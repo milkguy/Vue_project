@@ -26,7 +26,7 @@
 
             </el-row>
             <!-- tab页签区域 -->
-            <el-tabs v-model="activeName" @tab-click="handleTabClick">
+            <el-tabs v-model="activeName" @tab-click="handleTabClick"> 
                 <!-- 添加动态参数的面板 -->
                 <el-tab-pane label="动态参数" name="many">
                     <el-button type="primary" size="mini" :disabled="isBtnDisabled" @click="addDialogVisible = true">添加参数</el-button>
